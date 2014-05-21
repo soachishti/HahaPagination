@@ -1,0 +1,45 @@
+#pageNavi {
+	width:98%;
+	height:50px;
+	margin-top:20px;
+}
+#pageNavi a,
+#pageNavi span
+{
+	color:black;
+	font-weight:650;
+	font-family:verdana;
+	font-size:14px;
+	margin:0px 0 0 10px;
+	padding:10px;
+	border:1px solid black;
+}
+
+/* For Classic Version - START */
+#pageNavi #prev {
+	float:left;
+}
+#pageNavi #next {
+	float:right;
+}
+/* For Classic Version - END */
+
+/* For Modern Version - START */
+#pageNavi a {
+	text-decoration:none;
+	color:black;
+}
+#pageNavi span#selected  {
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#pageNavi  a:hover{
+	
+	background-color:#ddd;
+	text-decoration:none;
+}
+
+/*For Modern Version - END*/
